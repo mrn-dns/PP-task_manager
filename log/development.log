@@ -1,0 +1,2008 @@
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE DATABASE `task_manager_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE DATABASE `task_manager_test` DEFAULT CHARACTER SET `utf8mb4`[0m
+Started GET "/" for ::1 at 2024-01-22 12:04:53 +0000
+  [1m[35m (15.0ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (7.0ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (17.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /opt/homebrew/lib/ruby/gems/3.3.0/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /opt/homebrew/lib/ruby/gems/3.3.0/gems/railties-7.1.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 375)
+Completed 200 OK in 15ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 7737)
+
+
+Started GET "/main/index" for ::1 at 2024-01-22 12:12:13 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (3.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 187)
+  Rendered layout layouts/application.html.erb (Duration: 486.5ms | Allocations: 96458)
+Completed 200 OK in 492ms (Views: 488.3ms | ActiveRecord: 0.0ms | Allocations: 100559)
+
+
+Started GET "/main/index" for ::1 at 2024-01-22 12:15:19 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 18025)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 18943)
+
+
+Started GET "/" for ::1 at 2024-01-22 12:15:29 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 1271)
+Completed 200 OK in 8ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 1518)
+
+
+Started GET "/about" for ::1 at 2024-01-22 12:15:41 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/about"):
+  
+Started GET "/about" for ::1 at 2024-01-22 12:16:51 +0000
+  
+SyntaxError (/Users/denis.marincas/Desktop/rubyrailscourse/task_manager/config/routes.rb:15: syntax error, unexpected local variable or method, expecting `end' or dummy end
+  get "up" => "rails/health#show", as:...
+       ^~
+):
+  
+config/routes.rb:15: syntax error, unexpected local variable or method, expecting `end' or dummy end
+Started GET "/about" for ::1 at 2024-01-22 12:17:08 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 15608)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 16525)
+
+
+Started GET "/about" for ::1 at 2024-01-22 13:54:00 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by MainController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/about.html.erb within layouts/application
+  Rendered main/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 188)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 35804)
+Completed 200 OK in 28ms (Views: 24.2ms | ActiveRecord: 0.0ms | Allocations: 39907)
+
+
+Started GET "/about" for ::1 at 2024-01-22 13:57:26 +0000
+Processing by MainController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 15705)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 16616)
+
+
+Started GET "/" for ::1 at 2024-01-22 13:57:29 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/about.html.erb within layouts/application
+  Rendered main/about.html.erb within layouts/application (Duration: 0.7ms | Allocations: 93)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 1347)
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 1648)
+
+
+Started GET "/" for ::1 at 2024-01-22 16:17:07 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 98)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 15685)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 16606)
+
+
+Started GET "/about" for ::1 at 2024-01-22 16:18:12 +0000
+Processing by MainController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/about.html.erb within layouts/application
+  Rendered main/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 96)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 15498)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 16417)
+
+
+Started GET "/" for ::1 at 2024-01-22 16:18:15 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 92)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1358)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 1667)
+
+
+Started GET "/hello" for ::1 at 2024-01-22 16:23:07 +0000
+  
+AbstractController::ActionNotFound (The action 'hello' could not be found for MainController):
+  
+actionpack (7.1.3) lib/abstract_controller/base.rb:155:in `process'
+actionview (7.1.3) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.3) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.3) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.3) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.3) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.3) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.3) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.3) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.3) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.3) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.0.8) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.0.8) lib/rack/etag.rb:29:in `call'
+rack (3.0.8) lib/rack/conditional_get.rb:31:in `call'
+rack (3.0.8) lib/rack/head.rb:15:in `call'
+actionpack (7.1.3) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.3) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.3) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.3) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.3) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.3) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.3) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.3) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.8) lib/rack/method_override.rb:28:in `call'
+rack (3.0.8) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.3) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.3) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.8) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.3) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.3) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/hello" for ::1 at 2024-01-22 16:23:32 +0000
+Processing by MainController#hello as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 808)
+
+
+Started GET "/" for ::1 at 2024-01-22 16:23:32 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 97)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 15686)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 16568)
+
+
+Started GET "/" for ::1 at 2024-01-22 16:29:16 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 133)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 15557)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 16473)
+
+
+Started GET "/" for ::1 at 2024-01-22 16:33:39 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 233)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 15826)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 16745)
+
+
+Started GET "/about" for ::1 at 2024-01-22 16:40:55 +0000
+Processing by MainController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/about.html.erb within layouts/application
+  Rendered main/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 116)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 15535)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 16452)
+
+
+Started GET "/tasks" for ::1 at 2024-01-22 16:43:54 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/tasks"):
+  
+Started GET "/tasks/index" for ::1 at 2024-01-22 16:43:58 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 165)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 15755)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 16633)
+
+
+Started GET "/" for ::1 at 2024-01-22 16:48:13 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 672)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 16286)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 17205)
+
+
+Started GET "/tasks/index/" for ::1 at 2024-01-22 16:48:16 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 1418)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 1889)
+
+
+Started GET "/tasks/index" for ::1 at 2024-01-22 16:48:18 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 11)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 1253)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 1504)
+
+
+Started GET "/tasks/index/" for ::1 at 2024-01-22 16:48:20 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 11)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 1262)
+Completed 200 OK in 12ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 1513)
+
+
+Started GET "/tasks/index/" for ::1 at 2024-01-22 16:48:22 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 11)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 1266)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 1517)
+
+
+Started GET "/tasks/index/" for ::1 at 2024-01-22 16:49:30 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 728)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 16320)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 17248)
+
+
+Started GET "/" for ::1 at 2024-01-22 16:49:31 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 199)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 1461)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 1925)
+
+
+Started GET "/tasks/index" for ::1 at 2024-01-22 16:49:32 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 90)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 1361)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 1613)
+
+
+Started GET "/" for ::1 at 2024-01-22 16:49:33 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 88)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1344)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 1588)
+
+
+Started GET "/" for ::1 at 2024-01-22 16:53:32 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 770)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 16391)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 17304)
+
+
+Started GET "/about" for ::1 at 2024-01-22 16:53:33 +0000
+Processing by MainController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/about.html.erb within layouts/application
+  Rendered main/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 110)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1377)
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 1691)
+
+
+Started GET "/about" for ::1 at 2024-01-22 16:54:33 +0000
+Processing by MainController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/about.html.erb within layouts/application
+  Rendered main/about.html.erb within layouts/application (Duration: 0.4ms | Allocations: 114)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 15638)
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 16557)
+
+
+Started GET "/" for ::1 at 2024-01-22 16:54:36 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 798)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2073)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 2386)
+
+
+Started GET "/tasks/index" for ::1 at 2024-01-22 16:54:36 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 1524)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 1995)
+
+
+Started GET "/about?id=20&page=5" for ::1 at 2024-01-22 16:54:39 +0000
+Processing by MainController#about as HTML
+  Parameters: {"id"=>"20", "page"=>"5"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/about.html.erb within layouts/application
+  Rendered main/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 1281)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 1528)
+
+
+Started GET "/about?id=20&page=5" for ::1 at 2024-01-22 16:57:37 +0000
+Processing by MainController#about as HTML
+  Parameters: {"id"=>"20", "page"=>"5"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/about.html.erb within layouts/application
+  Rendered main/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 15708)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 16627)
+
+
+Started GET "/" for ::1 at 2024-01-22 16:58:28 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 790)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2075)
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 2385)
+
+
+Started GET "/about?id=20&page=5" for ::1 at 2024-01-22 16:58:32 +0000
+Processing by MainController#about as HTML
+  Parameters: {"id"=>"20", "page"=>"5"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/about.html.erb within layouts/application
+  Rendered main/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1254)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 1501)
+
+
+Started GET "/about?id=20&page=5" for ::1 at 2024-01-22 16:59:12 +0000
+Processing by MainController#about as HTML
+  Parameters: {"id"=>"20", "page"=>"5"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/about.html.erb within layouts/application
+  Rendered main/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 147)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 15636)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 16565)
+
+
+Started GET "/" for ::1 at 2024-01-22 17:02:34 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 827)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 16416)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 17334)
+
+
+Started GET "/tasks/index?page=1" for ::1 at 2024-01-22 17:02:35 +0000
+  
+SyntaxError (/Users/denis.marincas/Desktop/rubyrailscourse/task_manager/app/controllers/tasks_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+    @page: params[:page]
+         ^
+):
+  
+app/controllers/tasks_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+Started GET "/tasks/index?page=1" for ::1 at 2024-01-22 17:03:19 +0000
+  
+SyntaxError (/Users/denis.marincas/Desktop/rubyrailscourse/task_manager/app/controllers/tasks_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+    @page: params[:page]
+         ^
+):
+  
+app/controllers/tasks_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+Started GET "/tasks/index?page=1" for ::1 at 2024-01-22 17:03:21 +0000
+  
+SyntaxError (/Users/denis.marincas/Desktop/rubyrailscourse/task_manager/app/controllers/tasks_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+    @page: params[:page]
+         ^
+):
+  
+app/controllers/tasks_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+Started GET "/tasks/index?page=1" for ::1 at 2024-01-22 17:04:22 +0000
+  
+SyntaxError (/Users/denis.marincas/Desktop/rubyrailscourse/task_manager/app/controllers/tasks_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+    @page: params[:page]
+         ^
+):
+  
+app/controllers/tasks_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+Started GET "/tasks/index?page=1" for ::1 at 2024-01-22 17:04:22 +0000
+  
+SyntaxError (/Users/denis.marincas/Desktop/rubyrailscourse/task_manager/app/controllers/tasks_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+    @page: params[:page]
+         ^
+):
+  
+app/controllers/tasks_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+Started GET "/" for ::1 at 2024-01-22 17:04:26 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 829)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 16427)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 17299)
+
+
+Started GET "/tasks/index?page=1" for ::1 at 2024-01-22 17:04:27 +0000
+  
+SyntaxError (/Users/denis.marincas/Desktop/rubyrailscourse/task_manager/app/controllers/tasks_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+    @page: params[:page]
+         ^
+):
+  
+app/controllers/tasks_controller.rb:3: syntax error, unexpected ':', expecting `end' or dummy end
+Started GET "/tasks/index?page=1" for ::1 at 2024-01-22 17:04:43 +0000
+  
+SyntaxError (/Users/denis.marincas/Desktop/rubyrailscourse/task_manager/app/controllers/tasks_controller.rb:4: syntax error, unexpected ':', expecting `end' or dummy end
+    @page: params[:page]
+         ^
+):
+  
+app/controllers/tasks_controller.rb:4: syntax error, unexpected ':', expecting `end' or dummy end
+Started GET "/tasks/index?page=1" for ::1 at 2024-01-22 17:04:44 +0000
+  
+SyntaxError (/Users/denis.marincas/Desktop/rubyrailscourse/task_manager/app/controllers/tasks_controller.rb:4: syntax error, unexpected ':', expecting `end' or dummy end
+    @page: params[:page]
+         ^
+):
+  
+app/controllers/tasks_controller.rb:4: syntax error, unexpected ':', expecting `end' or dummy end
+Started GET "/tasks/index?page=1" for ::1 at 2024-01-22 17:05:30 +0000
+  
+SyntaxError (/Users/denis.marincas/Desktop/rubyrailscourse/task_manager/app/controllers/tasks_controller.rb:4: syntax error, unexpected ':', expecting `end' or dummy end
+    @page: params[:page].to_i
+         ^
+):
+  
+app/controllers/tasks_controller.rb:4: syntax error, unexpected ':', expecting `end' or dummy end
+Started GET "/tasks/index?page=1" for ::1 at 2024-01-22 17:05:31 +0000
+  
+SyntaxError (/Users/denis.marincas/Desktop/rubyrailscourse/task_manager/app/controllers/tasks_controller.rb:4: syntax error, unexpected ':', expecting `end' or dummy end
+    @page: params[:page].to_i
+         ^
+):
+  
+app/controllers/tasks_controller.rb:4: syntax error, unexpected ':', expecting `end' or dummy end
+Started GET "/tasks/index?page=1" for ::1 at 2024-01-22 17:07:45 +0000
+  
+SyntaxError (/Users/denis.marincas/Desktop/rubyrailscourse/task_manager/app/controllers/tasks_controller.rb:4: syntax error, unexpected ':', expecting `end' or dummy end
+    @page: params[:page].to_i
+         ^
+):
+  
+app/controllers/tasks_controller.rb:4: syntax error, unexpected ':', expecting `end' or dummy end
+Started GET "/" for ::1 at 2024-01-22 17:09:29 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 845)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 16441)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 17311)
+
+
+Started GET "/about?id=20&page=5" for ::1 at 2024-01-22 17:09:30 +0000
+Processing by MainController#about as HTML
+  Parameters: {"id"=>"20", "page"=>"5"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/about.html.erb within layouts/application
+  Rendered main/about.html.erb within layouts/application (Duration: 3.0ms | Allocations: 147)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 1388)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 1712)
+
+
+Started GET "/tasks/index?page=1" for ::1 at 2024-01-22 17:10:42 +0000
+Processing by TasksController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 828)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 16406)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 17334)
+
+
+Started GET "/tasks/index?page=1" for ::1 at 2024-01-22 17:10:45 +0000
+Processing by TasksController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 90)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 1340)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 1591)
+
+
+Started GET "/tasks/index?page=1" for ::1 at 2024-01-22 17:10:57 +0000
+  
+SyntaxError (/Users/denis.marincas/Desktop/rubyrailscourse/task_manager/app/controllers/tasks_controller.rb:4: syntax error, unexpected ':', expecting `end' or dummy end
+    @page: params[:page]
+         ^
+):
+  
+app/controllers/tasks_controller.rb:4: syntax error, unexpected ':', expecting `end' or dummy end
+Started GET "/tasks/index?page=1" for ::1 at 2024-01-22 17:12:37 +0000
+  
+SyntaxError (/Users/denis.marincas/Desktop/rubyrailscourse/task_manager/app/controllers/tasks_controller.rb:4: syntax error, unexpected ':', expecting `end' or dummy end
+    @page: params[:page]
+         ^
+):
+  
+app/controllers/tasks_controller.rb:4: syntax error, unexpected ':', expecting `end' or dummy end
+Started GET "/tasks/index?page=1" for ::1 at 2024-01-22 17:12:52 +0000
+  
+SyntaxError (/Users/denis.marincas/Desktop/rubyrailscourse/task_manager/app/controllers/tasks_controller.rb:4: syntax error, unexpected ':', expecting `end' or dummy end
+    @page: params[:page]
+         ^
+):
+  
+app/controllers/tasks_controller.rb:4: syntax error, unexpected ':', expecting `end' or dummy end
+Started GET "/tasks/index?page=1" for ::1 at 2024-01-22 17:15:36 +0000
+Processing by TasksController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 846)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 16432)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 17365)
+
+
+Started GET "/tasks/index?page=1" for ::1 at 2024-01-22 17:15:58 +0000
+Processing by TasksController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 850)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 16294)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 17224)
+
+
+Started GET "/tasks/index?page=1" for ::1 at 2024-01-22 17:16:19 +0000
+Processing by TasksController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 860)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 16305)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 17235)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (3.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.3ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.9ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2024-01-23 12:03:11.644876', '2024-01-23 12:03:11.644878')[0m
+Migrating to DoNothingYet (20240123115952)
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240123115952')[0m
+Migrating to CreateTasks (20240123120125)
+  [1m[35m (13.4ms)[0m  [1m[35mCREATE TABLE `tasks` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `description` text, `position` int, `completed` tinyint(1), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240123120125')[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateTasks (20240123120125)
+  [1m[35m (11.3ms)[0m  [1m[35mDROP TABLE `tasks`[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (1.1ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20240123120125'[0m
+Migrating to DoNothingYet (20240123115952)
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.8ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20240123115952'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to DoNothingYet (20240123115952)
+  [1m[36mActiveRecord::SchemaMigration Create (2.9ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240123115952')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to CreateTasks (20240123120125)
+  [1m[35m (9.1ms)[0m  [1m[35mCREATE TABLE `tasks` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `description` text, `position` int, `completed` tinyint(1), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.9ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240123120125')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Create (2.2ms)[0m  [1m[32mINSERT INTO `tasks` (`name`, `description`, `position`, `completed`, `created_at`, `updated_at`) VALUES ('Fold the Laundry', 'Fold the laundry in the basket and put it in the drawers', 1, FALSE, '2024-01-23 13:51:02.443377', '2024-01-23 13:51:02.443377')[0m
+  [1m[36mTRANSACTION (3.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Create (1.6ms)[0m  [1m[32mINSERT INTO `tasks` (`name`, `description`, `position`, `completed`, `created_at`, `updated_at`) VALUES ('Sweep the porch', NULL, 2, FALSE, '2024-01-23 13:51:59.119941', '2024-01-23 13:51:59.119941')[0m
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTask Load (3.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 1 LIMIT 1[0m
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Update (1.3ms)[0m  [1m[33mUPDATE `tasks` SET `tasks`.`name` = 'Fold Laundry', `tasks`.`updated_at` = '2024-01-23 13:56:55.130542' WHERE `tasks`.`id` = 1[0m
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 2 LIMIT 1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Update (1.4ms)[0m  [1m[33mUPDATE `tasks` SET `tasks`.`name` = 'Sweep Porch', `tasks`.`description` = 'Sweep dirt off the porch', `tasks`.`updated_at` = '2024-01-23 13:58:01.558035' WHERE `tasks`.`id` = 2[0m
+  [1m[36mTRANSACTION (3.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTask Load (1.2ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 2 LIMIT 1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Create (1.7ms)[0m  [1m[32mINSERT INTO `tasks` (`name`, `description`, `position`, `completed`, `created_at`, `updated_at`) VALUES ('Bad Task', NULL, NULL, NULL, '2024-01-23 14:01:01.338337', '2024-01-23 14:01:01.338337')[0m
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTask Load (1.2ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 3 LIMIT 1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Destroy (1.1ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 3[0m
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTask Load (1.2ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 2 LIMIT 1[0m
+  [1m[36mTask Load (1.2ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`completed` = FALSE /* loading for pp */ LIMIT 11[0m
+  [1m[36mTask Count (1.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `tasks` WHERE `tasks`.`completed` = FALSE[0m
+  [1m[36mTask Load (1.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE (completed = 0 AND position < 10) /* loading for pp */ LIMIT 11[0m
+  [1m[36mTask Count (1.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `tasks` WHERE (completed = 0 AND position < 10)[0m
+  [1m[36mTask Load (1.2ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE (name LIKE '%porch%') /* loading for pp */ LIMIT 11[0m
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE (name LIKE '%porch%') ORDER BY `tasks`.`id` ASC LIMIT 1[0m
+  [1m[36mTask Load (1.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE (name LIKE '%porch%') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to CreateCategories (20240123141352)
+  [1m[35m (8.8ms)[0m  [1m[35mCREATE TABLE `categories` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240123141352')[0m
+Migrating to AddCategoryIdToTasks (20240123141440)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (4.0ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to AddCategoryIdToTasks (20240123141440)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to AddCategoryIdToTasks (20240123141440)
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to AddCategoryIdToTasks (20240123141440)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (3.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to AddCategoryIdToTasks (20240123141440)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to AddCategoryIdToTasks (20240123141440)
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to AddCategoryIdToTasks (20240123141440)
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to AddCategoryIdToTasks (20240123141440)
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (3.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to AddCategoryIdToTasks (20240123141440)
+  [1m[35m (6.7ms)[0m  [1m[35mALTER TABLE `tasks` ADD `category_id` int[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240123141440')[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to AddCategoryIdToTasks (20240123141440)
+  [1m[35m (12.1ms)[0m  [1m[35mALTER TABLE `tasks` DROP COLUMN `category_id`[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.9ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20240123141440'[0m
+Migrating to CreateCategories (20240123141352)
+  [1m[35m (8.2ms)[0m  [1m[35mDROP TABLE `categories`[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.9ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20240123141352'[0m
+Migrating to CreateTasks (20240123120125)
+  [1m[35m (12.1ms)[0m  [1m[35mDROP TABLE `tasks`[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.8ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20240123120125'[0m
+Migrating to DoNothingYet (20240123115952)
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.6ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20240123115952'[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to DoNothingYet (20240123115952)
+  [1m[36mActiveRecord::SchemaMigration Create (1.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240123115952')[0m
+Migrating to CreateTasks (20240123120125)
+  [1m[35m (11.6ms)[0m  [1m[35mCREATE TABLE `tasks` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `description` text, `position` int, `completed` tinyint(1), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240123120125')[0m
+Migrating to CreateCategories (20240123141352)
+  [1m[35m (9.8ms)[0m  [1m[35mCREATE TABLE `categories` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240123141352')[0m
+Migrating to AddCategoryIdToTasks (20240123141440)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (3.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to AddCategoryIdToTasks (20240123141440)
+  [1m[35m (9.0ms)[0m  [1m[35mALTER TABLE `tasks` ADD `category_id` int[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240123141440')[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (4.8ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Create (1.6ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Weekly', '2024-01-23 16:43:02.526398', '2024-01-23 16:43:02.526398')[0m
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`category_id` = 1 /* loading for pp */ LIMIT 11[0m
+  [1m[36mTask Load (1.2ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 1 LIMIT 1[0m
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 1 LIMIT 1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Create (1.4ms)[0m  [1m[32mINSERT INTO `tasks` (`name`, `description`, `position`, `completed`, `created_at`, `updated_at`, `category_id`) VALUES ('Clean kitchen', NULL, 1, NULL, '2024-01-23 16:50:11.060532', '2024-01-23 16:50:11.060532', NULL)[0m
+  [1m[36mTRANSACTION (3.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTask Load (1.7ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 1 LIMIT 1[0m
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 2 LIMIT 1[0m
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Create (2.4ms)[0m  [1m[32mINSERT INTO `tasks` (`name`, `description`, `position`, `completed`, `created_at`, `updated_at`, `category_id`) VALUES ('Sweep porch', 'Clean the porch of dirt', NULL, NULL, '2024-01-23 16:55:16.358019', '2024-01-23 16:55:16.358019', NULL)[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to AddCategoryIdToTasks (20240123141440)
+  [1m[35m (8.6ms)[0m  [1m[35mALTER TABLE `tasks` DROP COLUMN `category_id`[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.7ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20240123141440'[0m
+Migrating to CreateCategories (20240123141352)
+  [1m[35m (6.8ms)[0m  [1m[35mDROP TABLE `categories`[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.5ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20240123141352'[0m
+Migrating to CreateTasks (20240123120125)
+  [1m[35m (3.8ms)[0m  [1m[35mDROP TABLE `tasks`[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.6ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20240123120125'[0m
+Migrating to DoNothingYet (20240123115952)
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.4ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20240123115952'[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to DoNothingYet (20240123115952)
+  [1m[36mActiveRecord::SchemaMigration Create (1.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240123115952')[0m
+Migrating to CreateTasks (20240123120125)
+  [1m[35m (15.7ms)[0m  [1m[35mCREATE TABLE `tasks` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `description` text, `position` int, `completed` tinyint(1), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.9ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240123120125')[0m
+Migrating to CreateCategories (20240123141352)
+  [1m[35m (7.3ms)[0m  [1m[35mCREATE TABLE `categories` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240123141352')[0m
+Migrating to AddCategoryIdToTasks (20240123141440)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to AddCategoryIdToTasks (20240123141440)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to AddCategoryIdToTasks (20240123141440)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to AddCategoryIdToTasks (20240123141440)
+  [1m[35m (12.2ms)[0m  [1m[35mALTER TABLE `tasks` ADD `category_id` int[0m
+  [1m[35m (8.2ms)[0m  [1m[35mCREATE INDEX `index_tasks_on_id` ON `tasks` (`id`)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240123141440')[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to AddCategoryIdToTasks (20240123141440)
+  [1m[35m (8.0ms)[0m  [1m[35mDROP INDEX `index_tasks_on_id` ON `tasks`[0m
+  [1m[35m (7.5ms)[0m  [1m[35mALTER TABLE `tasks` DROP COLUMN `category_id`[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.6ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20240123141440'[0m
+Migrating to CreateCategories (20240123141352)
+  [1m[35m (5.3ms)[0m  [1m[35mDROP TABLE `categories`[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.7ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20240123141352'[0m
+Migrating to CreateTasks (20240123120125)
+  [1m[35m (6.0ms)[0m  [1m[35mDROP TABLE `tasks`[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.5ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20240123120125'[0m
+Migrating to DoNothingYet (20240123115952)
+  [1m[36mActiveRecord::SchemaMigration Destroy (0.5ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20240123115952'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('5796706365260502195', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to DoNothingYet (20240123115952)
+  [1m[36mActiveRecord::SchemaMigration Create (1.2ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240123115952')[0m
+Migrating to CreateTasks (20240123120125)
+  [1m[35m (12.3ms)[0m  [1m[35mCREATE TABLE `tasks` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `description` text, `position` int, `completed` tinyint(1), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240123120125')[0m
+Migrating to CreateCategories (20240123141352)
+  [1m[35m (10.4ms)[0m  [1m[35mCREATE TABLE `categories` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240123141352')[0m
+Migrating to AddCategoryIdToTasks (20240123141440)
+  [1m[35m (7.0ms)[0m  [1m[35mALTER TABLE `tasks` ADD `category_id` int[0m
+  [1m[35m (7.2ms)[0m  [1m[35mCREATE INDEX `index_tasks_on_id` ON `tasks` (`id`)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240123141440')[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('5796706365260502195')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Create (2.9ms)[0m  [1m[32mINSERT INTO `categories` (`name`, `created_at`, `updated_at`) VALUES ('Weekly', '2024-01-23 17:37:22.475784', '2024-01-23 17:37:22.475784')[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTask Load (2.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`category_id` = 1 /* loading for pp */ LIMIT 11[0m
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 1 LIMIT 1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Create (1.9ms)[0m  [1m[32mINSERT INTO `tasks` (`name`, `description`, `position`, `completed`, `created_at`, `updated_at`, `category_id`) VALUES ('Clean kitchen', NULL, 1, FALSE, '2024-01-23 17:38:57.948278', '2024-01-23 17:38:57.948278', NULL)[0m
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Create (1.8ms)[0m  [1m[32mINSERT INTO `tasks` (`name`, `description`, `position`, `completed`, `created_at`, `updated_at`, `category_id`) VALUES ('Fold laundry', NULL, 2, FALSE, '2024-01-23 17:39:25.885277', '2024-01-23 17:39:25.885277', NULL)[0m
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 1 LIMIT 1[0m
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 2 LIMIT 1[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Update (1.1ms)[0m  [1m[33mUPDATE `tasks` SET `tasks`.`updated_at` = '2024-01-23 17:40:27.149583', `tasks`.`category_id` = 1 WHERE `tasks`.`id` = 1[0m
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`category_id` = 1 /* loading for pp */ LIMIT 11[0m
+  [1m[36mTask Count (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM `tasks` WHERE `tasks`.`category_id` = 1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Update (1.2ms)[0m  [1m[33mUPDATE `tasks` SET `tasks`.`updated_at` = '2024-01-23 17:41:07.654397', `tasks`.`category_id` = 1 WHERE `tasks`.`id` = 2[0m
+  [1m[36mTRANSACTION (4.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`category_id` = 1 /* loading for pp */ LIMIT 11[0m
+  [1m[36mTask Count (1.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `tasks` WHERE `tasks`.`category_id` = 1[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Update All (1.2ms)[0m  [1m[33mUPDATE `tasks` SET `tasks`.`category_id` = NULL WHERE `tasks`.`category_id` = 1 AND `tasks`.`id` = 2[0m
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for ::1 at 2024-01-23 22:41:14 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1113)
+  Rendered layout layouts/application.html.erb (Duration: 32.3ms | Allocations: 36688)
+Completed 200 OK in 39ms (Views: 34.3ms | ActiveRecord: 0.0ms | Allocations: 40788)
+
+
+Started GET "/tasks?page=1" for ::1 at 2024-01-23 22:41:16 +0000
+Processing by TasksController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 307)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 1581)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 2063)
+
+
+Started GET "/" for ::1 at 2024-01-23 22:56:04 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1432)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1524)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2438)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `cateogries_path' for an instance of #<Class:0x000000012e9b8ac8>):
+    1: <h1>Task Manager</h1>
+    2: <p>This is an application for managin a to do list.</p>
+    3: 
+    4: <%= link_to('Categories', cateogries_path)%><br />
+    5: <%= link_to('Tasks', tasks_path(page: 1)) %><br />
+    6: 
+    7: <%= link_to('About', {action: 'about', page:5, id:20}) %><br />
+  
+app/views/main/index.html.erb:4
+Started GET "/" for ::1 at 2024-01-23 22:56:06 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 971)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 1062)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1288)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `cateogries_path' for an instance of #<Class:0x000000012e9b8ac8>):
+    1: <h1>Task Manager</h1>
+    2: <p>This is an application for managin a to do list.</p>
+    3: 
+    4: <%= link_to('Categories', cateogries_path)%><br />
+    5: <%= link_to('Tasks', tasks_path(page: 1)) %><br />
+    6: 
+    7: <%= link_to('About', {action: 'about', page:5, id:20}) %><br />
+  
+app/views/main/index.html.erb:4
+Started GET "/" for ::1 at 2024-01-23 22:56:45 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 875)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 16503)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 17421)
+
+
+Started GET "/categories" for ::1 at 2024-01-23 22:56:47 +0000
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  Rendered categories/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 97)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 1375)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 1840)
+
+
+Started GET "/tasks?page=1" for ::1 at 2024-01-23 22:57:13 +0000
+Processing by TasksController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 336)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 1613)
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 2093)
+
+
+Started GET "/tasks/1" for ::1 at 2024-01-23 22:57:16 +0000
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 1390)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 1701)
+
+
+Started GET "/tasks/1/edit" for ::1 at 2024-01-23 22:57:17 +0000
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/edit.html.erb within layouts/application
+  Rendered tasks/edit.html.erb within layouts/application (Duration: 0.7ms | Allocations: 93)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 1363)
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 1674)
+
+
+Started GET "/tasks?page=1" for ::1 at 2024-01-23 23:10:07 +0000
+Processing by TasksController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 27.8ms | Allocations: 19746)
+  Rendered layout layouts/application.html.erb (Duration: 34.5ms | Allocations: 35351)
+Completed 200 OK in 54ms (Views: 28.5ms | ActiveRecord: 9.3ms | Allocations: 44322)
+
+
+Started GET "/tasks/1" for ::1 at 2024-01-23 23:10:12 +0000
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = NULL LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:9:in `show'
+Completed 404 Not Found in 8ms (ActiveRecord: 0.9ms | Allocations: 1881)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Task with 'id'={:params=>[:id]}):
+  
+app/controllers/tasks_controller.rb:9:in `show'
+Started GET "/tasks/1" for ::1 at 2024-01-23 23:10:36 +0000
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTask Load (1.5ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:9:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/show.html.erb within layouts/application
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/show.html.erb:31
+  Rendered tasks/show.html.erb within layouts/application (Duration: 20.8ms | Allocations: 5252)
+  Rendered layout layouts/application.html.erb (Duration: 47.6ms | Allocations: 20870)
+Completed 200 OK in 82ms (Views: 45.2ms | ActiveRecord: 23.6ms | Allocations: 27175)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:10:39 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 2053)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 3307)
+Completed 200 OK in 12ms (Views: 8.9ms | ActiveRecord: 1.5ms | Allocations: 3667)
+
+
+Started GET "/tasks/2" for ::1 at 2024-01-23 23:10:40 +0000
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:9:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 86)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 1348)
+Completed 200 OK in 12ms (Views: 6.7ms | ActiveRecord: 1.2ms | Allocations: 1988)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:10:43 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 1191)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 2426)
+Completed 200 OK in 16ms (Views: 12.3ms | ActiveRecord: 1.8ms | Allocations: 2695)
+
+
+Started GET "/" for ::1 at 2024-01-23 23:10:51 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 319)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 1584)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 2049)
+
+
+Started GET "/tasks?page=1" for ::1 at 2024-01-23 23:10:52 +0000
+Processing by TasksController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1191)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 2456)
+Completed 200 OK in 15ms (Views: 11.4ms | ActiveRecord: 1.3ms | Allocations: 2725)
+
+
+Started GET "/" for ::1 at 2024-01-23 23:17:45 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 879)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 16460)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 17380)
+
+
+Started GET "/tasks?page=1" for ::1 at 2024-01-23 23:17:46 +0000
+Processing by TasksController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 16.2ms | Allocations: 8560)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 9814)
+Completed 200 OK in 25ms (Views: 18.0ms | ActiveRecord: 2.7ms | Allocations: 11572)
+
+
+Started GET "/tasks/new" for ::1 at 2024-01-23 23:17:46 +0000
+Processing by TasksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (Duration: 11.4ms | Allocations: 1711)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 2797)
+Completed 200 OK in 17ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 3156)
+
+
+Started GET "/tasks/new" for ::1 at 2024-01-23 23:20:14 +0000
+Processing by TasksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 907)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 16310)
+Completed 200 OK in 24ms (Views: 10.9ms | ActiveRecord: 7.3ms | Allocations: 21515)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:20:15 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 16.2ms | Allocations: 6392)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 7655)
+Completed 200 OK in 23ms (Views: 14.7ms | ActiveRecord: 4.9ms | Allocations: 8062)
+
+
+Started GET "/tasks/new" for ::1 at 2024-01-23 23:20:18 +0000
+Processing by TasksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 504)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 1590)
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 1852)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:20:43 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 1200)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 2453)
+Completed 200 OK in 16ms (Views: 12.9ms | ActiveRecord: 1.7ms | Allocations: 2722)
+
+
+Started GET "/tasks/new" for ::1 at 2024-01-23 23:20:44 +0000
+Processing by TasksController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 531)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 1620)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 1881)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:20:45 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (1.0ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 9.9ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 2464)
+Completed 200 OK in 17ms (Views: 13.9ms | ActiveRecord: 1.7ms | Allocations: 2733)
+
+
+Started GET "/tasks/new" for ::1 at 2024-01-23 23:22:40 +0000
+Processing by TasksController#new as HTML
+  [1m[36mTask Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `tasks`[0m
+  ↳ app/controllers/tasks_controller.rb:13:in `new'
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 2.8ms | Allocations: 2355)
+
+
+  
+NameError (undefined local variable or method `position' for an instance of TasksController):
+  
+app/controllers/tasks_controller.rb:14:in `new'
+Started GET "/tasks/new" for ::1 at 2024-01-23 23:25:35 +0000
+Processing by TasksController#new as HTML
+  [1m[36mTask Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `tasks`[0m
+  ↳ app/controllers/tasks_controller.rb:13:in `new'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 897)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 16301)
+Completed 200 OK in 27ms (Views: 10.4ms | ActiveRecord: 10.9ms | Allocations: 22093)
+
+
+Started GET "/tasks/new" for ::1 at 2024-01-23 23:29:03 +0000
+Processing by TasksController#new as HTML
+  [1m[36mTask Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `tasks`[0m
+  ↳ app/controllers/tasks_controller.rb:13:in `new'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 879)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 16284)
+Completed 200 OK in 21ms (Views: 9.0ms | ActiveRecord: 7.4ms | Allocations: 22058)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:29:04 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.4ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 25.5ms | Allocations: 6388)
+  Rendered layout layouts/application.html.erb (Duration: 30.8ms | Allocations: 7645)
+Completed 200 OK in 34ms (Views: 26.9ms | ActiveRecord: 4.9ms | Allocations: 7998)
+
+
+Started GET "/tasks/new" for ::1 at 2024-01-23 23:29:05 +0000
+Processing by TasksController#new as HTML
+  [1m[36mTask Count (3.3ms)[0m  [1m[34mSELECT COUNT(*) FROM `tasks`[0m
+  ↳ app/controllers/tasks_controller.rb:13:in `new'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 521)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 1607)
+Completed 200 OK in 18ms (Views: 8.3ms | ActiveRecord: 3.3ms | Allocations: 2301)
+
+
+Started POST "/tasks" for ::1 at 2024-01-23 23:29:16 +0000
+Processing by TasksController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"name"=>"Wash Dishes", "position"=>"3", "completed"=>"0", "description"=>"Wash and dry dishes"}, "commit"=>"Create Task"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 786)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/tasks_controller.rb:18:in `create'
+Started GET "/tasks" for ::1 at 2024-01-23 23:33:12 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 14.4ms | Allocations: 9362)
+  Rendered layout layouts/application.html.erb (Duration: 22.4ms | Allocations: 24947)
+Completed 200 OK in 30ms (Views: 17.1ms | ActiveRecord: 10.4ms | Allocations: 27282)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:33:13 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1200)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2461)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.5ms | Allocations: 2736)
+
+
+Started GET "/tasks/new" for ::1 at 2024-01-23 23:33:13 +0000
+Processing by TasksController#new as HTML
+  [1m[36mTask Count (3.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `tasks`[0m
+  ↳ app/controllers/tasks_controller.rb:13:in `new'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 831)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 1917)
+Completed 200 OK in 20ms (Views: 6.2ms | ActiveRecord: 3.6ms | Allocations: 2723)
+
+
+Started POST "/tasks" for ::1 at 2024-01-23 23:33:26 +0000
+Processing by TasksController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"name"=>"Wash Dishes", "position"=>"3", "completed"=>"0", "description"=>"Wash and dry dishes"}, "commit"=>"Create Task"}
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:19:in `create'
+  [1m[36mTask Create (2.8ms)[0m  [1m[32mINSERT INTO `tasks` (`name`, `description`, `position`, `completed`, `created_at`, `updated_at`, `category_id`) VALUES ('Wash Dishes', 'Wash and dry dishes', 3, FALSE, '2024-01-23 23:33:26.487560', '2024-01-23 23:33:26.487560', NULL)[0m
+  ↳ app/controllers/tasks_controller.rb:19:in `create'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:19:in `create'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 14ms (ActiveRecord: 4.1ms | Allocations: 3418)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:33:26 +0000
+Processing by TasksController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1271)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 2545)
+Completed 200 OK in 8ms (Views: 6.2ms | ActiveRecord: 1.1ms | Allocations: 2861)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:39:50 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.8ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 13.2ms | Allocations: 9256)
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 24840)
+Completed 200 OK in 24ms (Views: 19.2ms | ActiveRecord: 2.5ms | Allocations: 26972)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:39:51 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.4ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 11.6ms | Allocations: 1272)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 2531)
+Completed 200 OK in 18ms (Views: 14.6ms | ActiveRecord: 2.0ms | Allocations: 2799)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:41:19 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 14.2ms | Allocations: 9447)
+  Rendered layout layouts/application.html.erb (Duration: 22.3ms | Allocations: 25032)
+Completed 200 OK in 31ms (Views: 16.7ms | ActiveRecord: 11.1ms | Allocations: 27365)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:41:20 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (2.0ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 12.9ms | Allocations: 1272)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 2525)
+Completed 200 OK in 21ms (Views: 16.0ms | ActiveRecord: 3.1ms | Allocations: 2795)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:41:21 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.5ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 11.9ms | Allocations: 1271)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 2518)
+Completed 200 OK in 22ms (Views: 16.3ms | ActiveRecord: 2.4ms | Allocations: 2787)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:41:22 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1271)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 2509)
+Completed 200 OK in 9ms (Views: 6.4ms | ActiveRecord: 1.7ms | Allocations: 2778)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:41:23 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1271)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 2530)
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 1.7ms | Allocations: 2800)
+
+
+Started GET "/" for ::1 at 2024-01-23 23:41:24 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 322)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 1606)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 2070)
+
+
+Started GET "/tasks?page=1" for ::1 at 2024-01-23 23:41:25 +0000
+Processing by TasksController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 1271)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 2518)
+Completed 200 OK in 17ms (Views: 13.1ms | ActiveRecord: 1.8ms | Allocations: 2787)
+
+
+Started GET "/tasks?page=1" for ::1 at 2024-01-23 23:44:45 +0000
+Processing by TasksController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1271)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 2520)
+Completed 200 OK in 14ms (Views: 10.5ms | ActiveRecord: 1.4ms | Allocations: 2787)
+
+
+Started GET "/tasks?page=1" for ::1 at 2024-01-23 23:44:45 +0000
+Processing by TasksController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 1271)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 2522)
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 1.0ms | Allocations: 2790)
+
+
+Started GET "/tasks?page=1" for ::1 at 2024-01-23 23:44:46 +0000
+Processing by TasksController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1271)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 2524)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 1.6ms | Allocations: 2793)
+
+
+Started GET "/tasks?page=1" for ::1 at 2024-01-23 23:44:47 +0000
+Processing by TasksController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 1271)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 2533)
+Completed 200 OK in 17ms (Views: 14.2ms | ActiveRecord: 1.5ms | Allocations: 2802)
+
+
+Started GET "/tasks/new" for ::1 at 2024-01-23 23:44:48 +0000
+Processing by TasksController#new as HTML
+  [1m[36mTask Count (4.7ms)[0m  [1m[34mSELECT COUNT(*) FROM `tasks`[0m
+  ↳ app/controllers/tasks_controller.rb:13:in `new'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/new.html.erb within layouts/application (Duration: 11.6ms | Allocations: 827)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 1928)
+Completed 200 OK in 26ms (Views: 15.3ms | ActiveRecord: 4.7ms | Allocations: 2735)
+
+
+Started POST "/tasks" for ::1 at 2024-01-23 23:44:51 +0000
+Processing by TasksController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"name"=>"sdwef", "position"=>"4", "completed"=>"1", "description"=>"wad"}, "commit"=>"Create Task"}
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:19:in `create'
+  [1m[36mTask Create (2.5ms)[0m  [1m[32mINSERT INTO `tasks` (`name`, `description`, `position`, `completed`, `created_at`, `updated_at`, `category_id`) VALUES ('sdwef', 'wad', 4, TRUE, '2024-01-23 23:44:52.011604', '2024-01-23 23:44:52.011604', NULL)[0m
+  ↳ app/controllers/tasks_controller.rb:19:in `create'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:19:in `create'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 13ms (ActiveRecord: 4.3ms | Allocations: 1971)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:44:52 +0000
+Processing by TasksController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1344)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2612)
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 1.6ms | Allocations: 2928)
+
+
+Started GET "/" for ::1 at 2024-01-23 23:44:55 +0000
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 167)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 1417)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 1661)
+
+
+Started GET "/about?id=20&page=5" for ::1 at 2024-01-23 23:44:57 +0000
+Processing by MainController#about as HTML
+  Parameters: {"id"=>"20", "page"=>"5"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/about.html.erb within layouts/application
+  Rendered main/about.html.erb within layouts/application (Duration: 0.7ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 1401)
+Completed 200 OK in 7ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 1727)
+
+
+Started GET "/tasks?page=1" for ::1 at 2024-01-23 23:44:59 +0000
+Processing by TasksController#index as HTML
+  Parameters: {"page"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 1344)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 2601)
+Completed 200 OK in 16ms (Views: 12.2ms | ActiveRecord: 1.5ms | Allocations: 2871)
+
+
+Started GET "/tasks/1" for ::1 at 2024-01-23 23:45:01 +0000
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:9:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/show.html.erb within layouts/application
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/show.html.erb:31
+  Rendered tasks/show.html.erb within layouts/application (Duration: 5.2ms | Allocations: 930)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2185)
+Completed 200 OK in 18ms (Views: 9.1ms | ActiveRecord: 1.7ms | Allocations: 3492)
+
+
+Started GET "/tasks/1/edit" for ::1 at 2024-01-23 23:45:03 +0000
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTask Load (1.7ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:27:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/edit.html.erb within layouts/application
+  Rendered tasks/edit.html.erb within layouts/application (Duration: 4.0ms | Allocations: 811)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 1893)
+Completed 200 OK in 14ms (Views: 7.0ms | ActiveRecord: 1.7ms | Allocations: 2601)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:45:05 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 17.6ms | Allocations: 1344)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 2636)
+Completed 200 OK in 23ms (Views: 19.1ms | ActiveRecord: 1.9ms | Allocations: 2906)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:45:54 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (1.1ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 17.2ms | Allocations: 10260)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 10352)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 9.4ms | Allocations: 12664)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"tasks", :id=>nil}, missing required keys: [:id]):
+    23:       <td><%= task.category&.name || '-' %></td>
+    24:       <td class="actions">
+    25:         <%= link_to("Show", task_path(task), class: 'action show') %>
+    26:         <%= link_to("Edit", edit_task_path(@task), class: 'action edit') %>
+    27:         <%= link_to("Delete", '#', class: 'action delete') %>
+    28:       </td>
+    29:     </tr>
+  
+app/views/tasks/index.html.erb:26
+app/views/tasks/index.html.erb:18
+Started GET "/tasks/1/edit" for ::1 at 2024-01-23 23:46:47 +0000
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTask Load (1.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:27:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/edit.html.erb within layouts/application
+  Rendered tasks/edit.html.erb within layouts/application (Duration: 2.2ms | Allocations: 863)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 16252)
+Completed 200 OK in 19ms (Views: 13.7ms | ActiveRecord: 1.0ms | Allocations: 17569)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:46:48 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.4ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (2.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 25.2ms | Allocations: 2180)
+  Rendered layout layouts/application.html.erb (Duration: 25.5ms | Allocations: 2271)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 3.5ms | Allocations: 2518)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"tasks", :id=>nil}, missing required keys: [:id]):
+    23:       <td><%= task.category&.name || '-' %></td>
+    24:       <td class="actions">
+    25:         <%= link_to("Show", task_path(task), class: 'action show') %>
+    26:         <%= link_to("Edit", edit_task_path(@task), class: 'action edit') %>
+    27:         <%= link_to("Delete", '#', class: 'action delete') %>
+    28:       </td>
+    29:     </tr>
+  
+app/views/tasks/index.html.erb:26
+app/views/tasks/index.html.erb:18
+Started GET "/tasks" for ::1 at 2024-01-23 23:49:43 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 11.3ms | Allocations: 10231)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 10323)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 10.0ms | Allocations: 12633)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"tasks", :id=>nil}, missing required keys: [:id]):
+    23:       <td><%= task.category&.name || '-' %></td>
+    24:       <td class="actions">
+    25:         <%= link_to("Show", task_path(task), class: 'action show') %>
+    26:         <%= link_to("Edit", edit_task_path(@task), class: 'action edit') %>
+    27:         <%= link_to("Delete", '#', class: 'action delete') %>
+    28:       </td>
+    29:     </tr>
+  
+app/views/tasks/index.html.erb:26
+app/views/tasks/index.html.erb:18
+Started GET "/tasks" for ::1 at 2024-01-23 23:49:45 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 2181)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2272)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.6ms | Allocations: 2520)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"tasks", :id=>nil}, missing required keys: [:id]):
+    23:       <td><%= task.category&.name || '-' %></td>
+    24:       <td class="actions">
+    25:         <%= link_to("Show", task_path(task), class: 'action show') %>
+    26:         <%= link_to("Edit", edit_task_path(@task), class: 'action edit') %>
+    27:         <%= link_to("Delete", '#', class: 'action delete') %>
+    28:       </td>
+    29:     </tr>
+  
+app/views/tasks/index.html.erb:26
+app/views/tasks/index.html.erb:18
+Started GET "/tasks" for ::1 at 2024-01-23 23:49:53 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 19.2ms | Allocations: 9651)
+  Rendered layout layouts/application.html.erb (Duration: 30.7ms | Allocations: 25239)
+Completed 200 OK in 41ms (Views: 24.5ms | ActiveRecord: 11.8ms | Allocations: 27572)
+
+
+Started GET "/tasks/1/edit" for ::1 at 2024-01-23 23:49:56 +0000
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTask Load (1.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:27:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/edit.html.erb within layouts/application
+  Rendered tasks/edit.html.erb within layouts/application (Duration: 4.3ms | Allocations: 866)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 1948)
+Completed 200 OK in 13ms (Views: 7.2ms | ActiveRecord: 1.3ms | Allocations: 3258)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:49:59 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.7ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (1.0ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1400)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 2662)
+Completed 200 OK in 12ms (Views: 7.5ms | ActiveRecord: 2.8ms | Allocations: 2931)
+
+
+Started GET "/tasks/3/edit" for ::1 at 2024-01-23 23:50:01 +0000
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTask Load (1.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:27:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/edit.html.erb within layouts/application
+  Rendered tasks/edit.html.erb within layouts/application (Duration: 1.8ms | Allocations: 560)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 1642)
+Completed 200 OK in 10ms (Views: 4.8ms | ActiveRecord: 1.2ms | Allocations: 2283)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:50:03 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.2ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 1400)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 2644)
+Completed 200 OK in 15ms (Views: 12.4ms | ActiveRecord: 2.0ms | Allocations: 2913)
+
+
+Started GET "/tasks/2/edit" for ::1 at 2024-01-23 23:50:38 +0000
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTask Load (1.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:27:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/edit.html.erb within layouts/application
+  Rendered tasks/edit.html.erb within layouts/application (Duration: 3.0ms | Allocations: 546)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 1628)
+Completed 200 OK in 14ms (Views: 9.2ms | ActiveRecord: 1.3ms | Allocations: 2268)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:53:56 +0000
+  
+SyntaxError (/Users/denis.marincas/Desktop/rubyrailscourse/task_manager/app/controllers/tasks_controller.rb:50: syntax error, unexpected end-of-input, expecting `end' or dummy end):
+  
+app/controllers/tasks_controller.rb:50: syntax error, unexpected end-of-input, expecting `end' or dummy end
+Started GET "/tasks" for ::1 at 2024-01-23 23:54:16 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 21.0ms | Allocations: 9663)
+  Rendered layout layouts/application.html.erb (Duration: 29.6ms | Allocations: 25245)
+Completed 200 OK in 41ms (Views: 23.2ms | ActiveRecord: 13.7ms | Allocations: 27578)
+
+
+Started GET "/tasks/4/edit" for ::1 at 2024-01-23 23:54:18 +0000
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:27:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/edit.html.erb within layouts/application
+  Rendered tasks/edit.html.erb within layouts/application (Duration: 2.1ms | Allocations: 875)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 1957)
+Completed 200 OK in 8ms (Views: 4.3ms | ActiveRecord: 0.9ms | Allocations: 3268)
+
+
+Started PATCH "/tasks/4" for ::1 at 2024-01-23 23:54:25 +0000
+Processing by TasksController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"name"=>"Hohoho", "position"=>"4", "completed"=>"1", "description"=>"HOHOOH"}, "commit"=>"Edit Task", "id"=>"4"}
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:31:in `update'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:32:in `update'
+  [1m[36mTask Update (0.8ms)[0m  [1m[33mUPDATE `tasks` SET `tasks`.`name` = 'Hohoho', `tasks`.`description` = 'HOHOOH', `tasks`.`updated_at` = '2024-01-23 23:54:25.284892' WHERE `tasks`.`id` = 4[0m
+  ↳ app/controllers/tasks_controller.rb:32:in `update'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:32:in `update'
+Redirected to http://localhost:3000/tasks/4
+Completed 302 Found in 12ms (ActiveRecord: 2.9ms | Allocations: 2611)
+
+
+Started GET "/tasks/4" for ::1 at 2024-01-23 23:54:25 +0000
+Processing by TasksController#show as TURBO_STREAM
+  Parameters: {"id"=>"4"}
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:9:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 420)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 1696)
+Completed 200 OK in 9ms (Views: 5.1ms | ActiveRecord: 0.6ms | Allocations: 2452)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:58:57 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 10.2ms | Allocations: 9613)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 25201)
+Completed 200 OK in 22ms (Views: 13.1ms | ActiveRecord: 6.1ms | Allocations: 27536)
+
+
+Started GET "/tasks/new" for ::1 at 2024-01-23 23:58:59 +0000
+Processing by TasksController#new as HTML
+  [1m[36mTask Count (1.5ms)[0m  [1m[34mSELECT COUNT(*) FROM `tasks`[0m
+  ↳ app/controllers/tasks_controller.rb:13:in `new'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.0ms | Allocations: 367)
+  Rendered tasks/new.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1098)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 2184)
+Completed 200 OK in 16ms (Views: 8.6ms | ActiveRecord: 1.5ms | Allocations: 2992)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:59:00 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (5.6ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (1.1ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 1401)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 2672)
+Completed 200 OK in 17ms (Views: 8.7ms | ActiveRecord: 6.7ms | Allocations: 2941)
+
+
+Started GET "/tasks/1/edit" for ::1 at 2024-01-23 23:59:01 +0000
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:27:in `edit'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/edit.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.7ms | Allocations: 188)
+  Rendered tasks/edit.html.erb within layouts/application (Duration: 3.2ms | Allocations: 823)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 1910)
+Completed 200 OK in 21ms (Views: 13.0ms | ActiveRecord: 1.1ms | Allocations: 3217)
+
+
+Started GET "/tasks" for ::1 at 2024-01-23 23:59:03 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1400)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 2660)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.8ms | Allocations: 2929)
+
+
+Started GET "/tasks" for ::1 at 2024-01-24 00:05:49 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.8ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (1.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 8.6ms | Allocations: 9404)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 24983)
+Completed 200 OK in 23ms (Views: 13.7ms | ActiveRecord: 3.3ms | Allocations: 27197)
+
+
+Started GET "/tasks/4/delete" for ::1 at 2024-01-24 00:05:51 +0000
+Processing by TasksController#delete as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mTask Load (1.2ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:40:in `delete'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/delete.html.erb within layouts/application
+  Rendered tasks/delete.html.erb within layouts/application (Duration: 2.9ms | Allocations: 626)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 1714)
+Completed 200 OK in 13ms (Views: 6.2ms | ActiveRecord: 1.2ms | Allocations: 3026)
+
+
+Started DELETE "/tasks/4" for ::1 at 2024-01-24 00:05:52 +0000
+Processing by TasksController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "commit"=>"Delete Task", "id"=>"4"}
+  [1m[36mTask Load (1.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:44:in `destroy'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:45:in `destroy'
+  [1m[36mTask Destroy (0.8ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 4[0m
+  ↳ app/controllers/tasks_controller.rb:45:in `destroy'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:45:in `destroy'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 13ms (ActiveRecord: 3.8ms | Allocations: 2020)
+
+
+Started GET "/tasks" for ::1 at 2024-01-24 00:05:52 +0000
+Processing by TasksController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1355)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 2611)
+Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 1.4ms | Allocations: 2927)
+
+
+Started GET "/tasks" for ::1 at 2024-01-24 00:05:54 +0000
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` ORDER BY `tasks`.`position` ASC[0m
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  ↳ app/views/tasks/index.html.erb:23
+  Rendered tasks/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1355)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2626)
+Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 1.2ms | Allocations: 2893)
+
+
